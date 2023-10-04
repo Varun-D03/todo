@@ -1,0 +1,22 @@
+{
+  "name": "mean-stack-angular-14-master-2",
+  "version": "1.0.0",
+  "description": "In this tutorial, I will show you how to build a full-stack (MEAN stack) Angular 14 + Node.js example with a CRUD Application. The back-end server uses Node.js + Express for REST APIs and connects with MongoDB database, front-end side is an Angular App with HTTPClient.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start-frontend": "cd client && npm start",
+    "start-backend": "cd server && npm start"
+
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "@babel/plugin-proposal-private-property-in-object":"7.21.11"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
